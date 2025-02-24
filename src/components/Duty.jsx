@@ -1,10 +1,10 @@
-import { HiChevronDoubleRight } from 'react-icons/hi';
+import { FaAngleDoubleRight } from 'react-icons/fa';
 
 const Duty = ({ text }) => {
   return (
     <div className='duty'>
       <div>
-        <HiChevronDoubleRight className='icon' />
+        <FaAngleDoubleRight className='icon' />
       </div>
       <div className='text'>{text}</div>
     </div>
